@@ -2,7 +2,7 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background: #fff;
+  background: #f6f7f4; 
   color: #222;
   display: flex;
   justify-content: center;
@@ -17,6 +17,10 @@ body {
   display: none;
   flex-direction: column;
   gap: 20px;
+  background: #ffffff; 
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
 
 .start-container {
@@ -26,27 +30,30 @@ body {
 .container_h3 {
   font-size: 14px;
   font-weight: 400;
-  color: #666;
-  margin-bottom: 20px;
+  color: #6b7a62; 
+  margin-bottom: 10px;
 }
 
 .start-btn {
   font-size: 16px;
-  padding: 8px 16px;
-  border: 1px solid #999;
-  border-radius: 6px;
-  background: transparent;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #8fa87b; 
+  color: #fff;
   cursor: pointer;
-  transition: background 0.2s ease;
+  transition: background 0.2s ease, transform 0.1s ease;
 }
 
 .start-btn:hover {
-  background: #f5f5f5;
+  background: #6f8d5f; 
+  transform: translateY(-1px);
 }
 
 .question {
   font-size: 28px;
-  font-weight: 500;
+  font-weight: 600;
+  color: #333;
 }
 
 .ans-row {
@@ -57,18 +64,20 @@ body {
 }
 
 .answer {
-  width: 56px;
-  height: 56px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #d6dbc8; 
+  border-radius: 8px;
   font-size: 16px;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: background 0.2s ease;
+  background: #f3f5ef; /* ніжний зелено-білий */
+  transition: background 0.2s ease, transform 0.1s ease;
 }
 
 .answer:hover {
-  background-color: #f0f0f0;
+  background-color: #e0ead9; 
+  transform: translateY(-1px);
 }
